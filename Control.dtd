@@ -1,0 +1,20 @@
+<!--DTD :contrat d'échange de données entre les systèmes d'information-->
+<!ELEMENT biblio (etudiant+) >
+<!ELEMENT etudiant (livre+) >
+<!ELEMENT livre EMPTY >
+<!--Declaration des attributs-->
+<!-- cdata vs nmtoken
+cdata:accepter les espaces
+nmtoken :n'accepte pas les espaces + les caracteres speciaux+premier lettre doit pas etre 
+un chiffre
+-->
+<!ATTLIST etudiant code CDATA #REQUIRED
+             nom CDATA #REQUIRED
+             prenom CDATA #REQUIRED>
+             
+<!ATTLIST livre 
+                 id NMTOKEN #REQUIRED
+                 dateEmprunt CDATA #REQUIRED
+                 titre CDATA #REQUIRED
+                 rendu (OUI|NON) 'NON'>             
+             

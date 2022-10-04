@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "file:/C:/Users/hp/Desktop/XML%20Basics/Control.dtd">
+<biblio>
+    <etudiant code="E1" nom="BRAIMI" prenom="HAMZA">
+        <livre id="L1" dateEmprunt="2018-11-11" titre="XML" rendu="OUI"/>
+        <livre id="L2" dateEmprunt="2022-10-11" titre="ORACL"/>
+    </etudiant>
+    <etudiant code="E2" nom="BRAIMI" prenom="HAYTAM">
+        <livre id="L2" dateEmprunt="2022-10-19" titre="JAVA" rendu="OUI"/>
+        <livre id="L3" dateEmprunt="2019-02-20" titre="JETON" rendu="NON"/>
+    </etudiant>
+</biblio>

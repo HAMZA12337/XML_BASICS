@@ -1,0 +1,34 @@
+/mondial/country[1]
+/mondial/country[NAME="maroc"]
+/mondial/country[@NAME="MA"]
+/mondoal/country[name="Morocco"]/*
+/mondoal/country[name="Morocco"]/provice/city/name
+
+/mondoal/country[name="Morocco"]/descendant::city
+//city
+
+count(//city)
+sum(//country/population)
+max(//country/population[last()])
+min(//country/population[last()])
+
+//country[population=max(//country/population[last()])]/name
+/mondoal/populatiom[last()]/concat(../name[1],'---------->'.)
+
+/mondoal/populatiom[last()]/concat(../name[1],'---------->'.,'(',COUNT(..//CITY),')','VILLES')
+ 
+/*/COUNTRY[@AREA=max(/*/country/@area)])/concat(name[1],'->',@area)
+
+/*/country[position()=last()]/encompassed
+
+
+
+
+/*/country/[religion='Jwish']/name
+
+
+/*/country[eccompassed/@continent='africa'][religion ='Jewish']/concat(name,'==',population[last()]*religion[.="Jewsh"]/@percentage div 100)
+
+
+
+sum(/*/country[eccompassed/@continent='africa'][religion ='Jewish']/concat(name,'==',population[last()]*religion[.="Jewsh"]/@percentage div 100))

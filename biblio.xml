@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblio SYSTEM "file:/C:/Users/hp/Desktop/XML%20Basics/Control.dtd">
-<biblio>
+<!DOCTYPE biblio SYSTEM "Control.dtd">
+<?xml-stylesheet type="text/xsl" href="biblio.xsl"?>
+<biblio> 
     <etudiant code="E1" nom="BRAIMI" prenom="HAMZA">
         <livre id="L1" dateEmprunt="2018-11-11" titre="XML" rendu="OUI"/>
         <livre id="L2" dateEmprunt="2022-10-11" titre="ORACL"/>
